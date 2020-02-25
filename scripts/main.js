@@ -5,7 +5,7 @@ myImage.onclick = function() {
     if(mySrc === 'images/IMG_0020.JPG') {
       myImage.setAttribute ('src','images/IMG_0021.jpg');
     } else {
-      myImage.setAttribute ('src','images/IMG_0021.JPG');
+      myImage.setAttribute ('src','images/IMG_0020.JPG');
     }
 }
 var myButton = document.querySelector('button');
